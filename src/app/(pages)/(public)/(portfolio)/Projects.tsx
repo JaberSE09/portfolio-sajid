@@ -1,7 +1,8 @@
 // types
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaArrowRight } from 'react-icons/fa6'
+import { CgWebsite } from "react-icons/cg";
+import { FaGithubSquare } from "react-icons/fa";
 
 //types
 import { Project } from './types'
@@ -14,7 +15,7 @@ const Projects = ({ projects }: { projects: Project[] }) => {
           <div>
             <h1 className="text-3xl font-medium my-3">Latest Projects</h1>
           </div>
-          <div className="flex flex-wrap items-center gap-8">
+          {/* <div className="flex flex-wrap items-center gap-8">
             <p>
               <Link href="" className="font-medium text-blue-600">
                 UI/UX Design
@@ -35,7 +36,7 @@ const Projects = ({ projects }: { projects: Project[] }) => {
                 Web Development
               </Link>
             </p>
-          </div>
+          </div> */}
         </div>
         <div
           className="grid lg:grid-cols-2 grid-cols-1 gap-6"
@@ -63,12 +64,20 @@ const Projects = ({ projects }: { projects: Project[] }) => {
                       />
                     </div>
                     <div className="absolute inset-0 group-hover:flex items-center justify-center hidden transition-all duration-300 z-10">
-                      <Link href="" className="inline-block">
-                        <div className="flex items-center gap-3 py-[6px] px-3 bg-red-500 rounded-md">
+                      <Link href={project.github} className="inline-block">
+                        <div className="flex items-center gap-3 py-[6px] px-3 mr-10 bg-red-500 rounded-md">
                           <p className="text-sm font-semibold text-white">
                             View Project
                           </p>
-                          <FaArrowRight color="#ffff" />
+                          <FaGithubSquare color="#ffff" />
+                        </div>
+                      </Link>
+                      <Link href={project.website} className="inline-block">
+                        <div className="flex items-center gap-3 py-[6px] px-3 bg-red-500 rounded-md">
+                          <p className="text-sm font-semibold text-white">
+                            View Website
+                          </p>
+                          <CgWebsite color="#ffff" />
                         </div>
                       </Link>
                     </div>

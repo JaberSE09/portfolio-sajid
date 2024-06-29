@@ -11,6 +11,8 @@ export type Project = {
   title: string
   description: string
   image: StaticImageData
+  github: string
+  website: string
 }
 
 export type Testimonial = {

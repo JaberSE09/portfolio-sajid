@@ -7,11 +7,9 @@ import { OffcanvasLayout } from '@/components'
 import AppMenu from './Menu'
 import VerticalMenu from './VerticalMenu'
 import { useToggle } from '@/hooks'
-import resume from "@/public/resume/resume.pdf"
 //images
 import logoDark from '@/assets/images/sajid-logos/logo-png.png'
 import { FaBars, FaXmark } from 'react-icons/fa6'
-
 
 const Navbar = () => {
   const [isOpenOffcanvas, toggleOffcanvas, _openOffcanvas, closeOffcanvas] =
@@ -34,10 +32,6 @@ const Navbar = () => {
       }
     })
   }, [])
-
-    const downloadFile = () => {
-      window.location.href = "/src/public/resume/resume.pdf"
-    }
   return (
     <>
       <header
@@ -54,9 +48,9 @@ const Navbar = () => {
               <AppMenu menuItems={getHorizontalMenuItems()} />
             </div>
             <div className="hidden lg:flex items-center ms-3">
-              <button onClick={downloadFile} className="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm">
+              <a href={'./resume/resume.pdf'} className="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm" download>
                 Download
-              </button>
+              </a>
             </div>
             <div className="lg:hidden flex items-center ms-auto px-2.5">
               <button type="button" onClick={toggleOffcanvas}>

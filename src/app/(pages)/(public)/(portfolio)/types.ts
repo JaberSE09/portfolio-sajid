@@ -2,7 +2,7 @@ import { StaticImageData } from 'next/image'
 import { ReactNode } from 'react'
 
 export type Service = {
-  icon: ReactNode
+  icon:  StaticImageData
   title: string
   description: string
 }

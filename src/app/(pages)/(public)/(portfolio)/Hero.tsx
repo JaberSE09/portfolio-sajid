@@ -36,7 +36,7 @@ const Hero = () => {
                   Hire Me
                 </Link>
                 <a
-                href='@/assets/images/resume/resume.pdf'
+                href='./resume/resume.pdf'
                   className="py-3 px-6 rounded border border-red-500 hover:border-red-500 text-red-500 font-semibold hover:bg-red-500 hover:text-white hover:shadow-lg hover:shadow-red-500/50 focus:outline focus:outline-red-500/50 transition-all duration-500"
                   download={"resume.pdf"}
                 >

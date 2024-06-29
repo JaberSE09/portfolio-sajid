@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 //image
-import portfolio1 from '@/assets/images/hero/portfolio1.png'
+import portfolio1 from '@/assets/images/hero/sajid.png'
 
 const Hero = () => {
   return (
@@ -20,12 +20,12 @@ const Hero = () => {
               data-aos="fade-right"
               data-aos-duration={1000}
             >
-              <h4 className="text-lg">Hola! I am Greeva N.</h4>
+              <h4 className="text-lg">Hello! I am Sajid J.</h4>
               <h1 className="md:text-5xl text-3xl font-medium my-3">
-                I&apos;m a freelance UX/UI Designer.
+                I&apos;m a freelance Web Developer.
               </h1>
               <p className="text-base mt-6 mb-20 text-slate-700">
-                A top-notch web designer helping business to craft their
+                A top-notch web developer helping business/individuals to craft their
                 meaningful and interactive product experiences
               </p>
               <div className="flex flex-wrap items-center gap-5">

@@ -18,25 +18,25 @@ const services: Service[] = [
     icon: (
     coding
     ),
-    title: 'UI/UX Design',
+    title: 'Full Stack Web Developer',
     description:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
+      'As a Full Stack Web Developer specializing in Next.js, I design and build dynamic web applications that are both user-friendly and highly efficient. I handle everything from crafting interactive user interfaces using React and Next.js to developing robust backend services with Node.js and Express. My role involves optimizing performance, managing databases like MongoDB or MySQL, and ensuring secure, scalable deployments. Additionally, I collaborate closely with cross-functional teams, implement responsive designs, and continuously integrate and deploy updates to enhance the overall user experience.',
   },
   {
     icon: (
      nextjs
     ),
-    title: 'Product Design',
+    title: 'Next Js Expert',
     description:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
+      'As a Next.js expert, I build high-performance web applications with React, focusing on server-side rendering (SSR) and static site generation (SSG) for optimal speed and SEO. I develop robust backend APIs using Node.js and Express, integrate databases like MongoDB and MySQL, and optimize performance with techniques like code-splitting and incremental static regeneration (ISR).I ensure reliability through testing with Jest and Cypress and manage deployments to cloud platforms such as Vercel and AWS. By setting up CI/CD pipelines, I streamline continuous integration and deployment. I collaborate with cross-functional teams, use Git for version control, and stay updated with the latest trends to deliver scalable, efficient web solutions.',
   },
   {
     icon: (
      database
     ),
-    title: 'Frontend Development',
+    title: 'Database Structure',
     description:
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
+      'As a Next.js expert, I design and implement efficient database structures tailored to application needs. This includes creating normalized relational databases using MySQL or PostgreSQL for structured data and utilizing MongoDB for flexible, document-oriented data storage. I ensure data integrity and optimize performance through indexing, schema design, and query optimization. Additionally, I implement robust data security measures and handle migrations and backups to maintain data consistency and availability.',
   },
 ]
 

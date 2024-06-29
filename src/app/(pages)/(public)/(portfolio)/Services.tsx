@@ -27,7 +27,7 @@ const Services = ({ services }: { services: Service[] }) => {
                     <Image src={service.icon}  alt={service.title} />
                   </div> 
                   <h4 className="text-lg mt-6">{service.title}</h4>
-                  <p className="text-base text-slate-400 leading-7 mt-2">
+                  <p className="text-base text-slate-400 leading-2 mt-2">
                     {service.description}
                   </p>
                 </div>

@@ -54,13 +54,13 @@ const Projects = ({ projects }: { projects: Project[] }) => {
                         {project.description}
                       </p>
                     </div>
-                    <div>
+                    <div> 
                       <Image
-                        alt="portfolioImage"
+                        alt={project.title}
                         width={532}
                         height={448}
                         src={project.image}
-                        className="rounded-md"
+                        className="rounded-md w-[500px]"
                       />
                     </div>
                     <div className="absolute inset-0 group-hover:flex items-center justify-center hidden transition-all duration-300 z-10">

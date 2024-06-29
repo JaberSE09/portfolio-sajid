@@ -3,7 +3,7 @@ import { Project, Service, Testimonial } from './types'
 
 //images
 import projectImg1 from '@/assets/images/features/projects/teckinfinity.png'
-import projectImg2 from '@/assets/images/features/agency2.jpg'
+import projectImg2 from '@/assets/images/features/projects/jimmyjay.png'
 
 import amazon from '@/assets/images/brands/amazon.svg'
 import google from '@/assets/images/brands/google.svg'
@@ -49,11 +49,11 @@ const projects: Project[] = [
     image: projectImg1,
   },
   {
-    title: 'Project 2',
-    description: 'Branding, Web Design & Development',
+    title: 'Limo Service Website',
+    description: 'Next JS Portfolio Website that uses tailwind css',
     image: projectImg2,
-    github: '',
-    website: ''
+    github: 'https://github.com/JaberSE09/jimmycab',
+    website: 'https://jimmycab.vercel.app/'
   },
   // {
   //   title: 'Project 3',

@@ -19,7 +19,7 @@ const PortFolio = () => {
       <Hero />
       <Services services={services} />
       <Projects projects={projects} />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <CTA />
       <Footer />
     </>

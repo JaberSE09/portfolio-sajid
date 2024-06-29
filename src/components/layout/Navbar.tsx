@@ -43,7 +43,7 @@ const Navbar = () => {
       >
         <div className="container">
           <nav className="flex items-center">
-            <Link href="/">
+            <Link href="/landing/portfolio">
               <Image src={logoDark} className="h-8" width={126} alt="Logo" />
             </Link>
             <div className="lg:block hidden ms-auto">

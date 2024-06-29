@@ -22,7 +22,7 @@ const Hero = () => {
             >
               <h4 className="text-lg">Hello! I am Sajid J.</h4>
               <h1 className="md:text-5xl text-3xl font-medium my-3">
-                I&apos;m a freelance Web Developer.
+                I&apos;m a freelance Full Stack Web Developer.
               </h1>
               <p className="text-base mt-6 mb-20 text-slate-700">
                 A top-notch web developer helping business/individuals to craft their

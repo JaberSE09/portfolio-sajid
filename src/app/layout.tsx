@@ -5,7 +5,7 @@ import { ReactNode } from 'react'
 import NextTopLoader from 'nextjs-toploader'
 import AppProviders from '@/components/AppProviders'
 
-import appLogo from '@/assets/images/logo-dark.png'
+import appLogo from '@/assets/images/sajid-logos/logo-png.png'
 
 // styles
 import './globals.css'

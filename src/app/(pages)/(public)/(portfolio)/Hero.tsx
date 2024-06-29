@@ -1,10 +1,10 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
-
-//image
-import portfolio1 from '@/assets/images/hero/sajid.png'
-
+import { useRef } from 'react';
+import sajid from "@/assets/images/hero/sajid.png"
 const Hero = () => {
+  const targetRef = useRef();
   return (
     <section className="pt-44 relative bg-gradient-to-b from-red-500/5 to-amber-500/5">
       <div>
@@ -29,18 +29,20 @@ const Hero = () => {
                 meaningful and interactive product experiences
               </p>
               <div className="flex flex-wrap items-center gap-5">
-                <Link
-                  href=""
+                <Link 
+                  href="mailto:sajidjaber@yahoo.com"
                   className="py-3 px-6 rounded border border-red-500 font-semibold text-white bg-red-500 hover:shadow-lg hover:shadow-red-500/50 focus:outline focus:outline-red-500/50 transition-all duration-500"
                 >
                   Hire Me
                 </Link>
-                <Link
-                  href=""
+                <a
+                href='@/assets/images/resume/resume.pdf'
                   className="py-3 px-6 rounded border border-red-500 hover:border-red-500 text-red-500 font-semibold hover:bg-red-500 hover:text-white hover:shadow-lg hover:shadow-red-500/50 focus:outline focus:outline-red-500/50 transition-all duration-500"
+                  download={"resume.pdf"}
                 >
                   Download CV
-                </Link>
+                </a>
+
               </div>
             </div>
             <div data-aos="fade-up" data-aos-duration={500}>
@@ -48,7 +50,7 @@ const Hero = () => {
                 width={374}
                 height={533}
                 alt="portfolio1"
-                src={portfolio1}
+                src={sajid}
                 className="lg:ms-auto lg:me-0 mx-auto z-10 relative"
               />
             </div>

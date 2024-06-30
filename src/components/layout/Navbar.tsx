@@ -45,7 +45,7 @@ const Navbar = () => {
               <Image src={logoDark} className="h-8" width={126} alt="Logo" />
             </Link>
             <div className="lg:block hidden ms-auto">
-              <AppMenu menuItems={getHorizontalMenuItems()} />
+              {/* <AppMenu menuItems={getHorizontalMenuItems()} /> */}
             </div>
             <div className="hidden lg:flex items-center ms-3">
               <a href={'./resume/resume.pdf'} className="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm" download>
@@ -78,7 +78,7 @@ const Navbar = () => {
           </div>
           {/* Mobile Menu Link List */}
           <div className="p-6 overflow-scroll h-full" id="right-menu">
-            <VerticalMenu menuItems={getMenuItems()} />
+            {/* <VerticalMenu menuItems={getMenuItems()} /> */}
           </div>
           {/* Mobile Menu Download Button (Footer) */}
           <div className="p-6 flex items-center justify-center">

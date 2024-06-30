@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:flex items-center ms-3">
               <a href={'./resume/resume.pdf'} className="bg-primary text-white px-4 py-2 rounded inline-flex items-center text-sm" download>
-                Download
+                Download CV
               </a>
             </div>
             <div className="lg:hidden flex items-center ms-auto px-2.5">
@@ -87,7 +87,7 @@ const Navbar = () => {
               href="https://themeforest.net/item/prompt-tailwind-css-multipurpose-landing-template/46369753"
               className="bg-primary w-full text-white p-3 rounded flex items-center justify-center text-sm"
             >
-              Download
+              Download CV
             </Link>
           </div>
         </div>

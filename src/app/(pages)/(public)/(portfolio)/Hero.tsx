@@ -26,7 +26,7 @@ const Hero = () => {
               </h1>
               <p className="text-base mt-6 mb-20 text-slate-700">
                 A top-notch web developer helping business/individuals to craft their
-                meaningful and interactive product experiences
+                meaningful and interactive website and mobile app experiences
               </p>
               <div className="flex flex-wrap items-center gap-5">
                 <Link 

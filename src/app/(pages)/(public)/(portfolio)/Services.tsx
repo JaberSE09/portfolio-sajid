@@ -10,7 +10,7 @@ const Services = ({ services }: { services: Service[] }) => {
           <h2 className="md:text-3xl text-xl font-semibold my-5">What I Do</h2>
           <p className="text-slate-400 font-medium">
           A Full Stack Web Developer specializing in Next.js is responsible for both the frontend and backend aspects of web development, 
-            <span className="text-red-500">&nbsp;utilizing Next.js as the primary framework. Here’s an overview of what such a developer typically does.</span>
+            <span className="text-red-500">&nbsp;utilizing Next.js as the primary framework. Here’s an overview of what I typically does.</span>
           </p>
         </div>
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 pt-14">

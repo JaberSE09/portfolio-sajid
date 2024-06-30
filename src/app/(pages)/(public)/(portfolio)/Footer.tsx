@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className="py-8">
       <div className="container">
-        <ul className="flex flex-wrap items-center justify-center gap-5">
+        {/* <ul className="flex flex-wrap items-center justify-center gap-5">
           <li className="after:content-['-'] after:text-slate-300 after:font-extrabold">
             <Link href="" className="text-slate-600 hover:text-blue-600 me-4">
               About
@@ -20,7 +20,7 @@ const Footer = () => {
               Contact
             </Link>
           </li>
-        </ul>
+        </ul> */}
         <p className="mt-5 text-center text-slate-600">
           {new Date().getFullYear()} © Prompt. All rights reserved. Crafted by
           <Link href="/" className="hover:text-blue-600">

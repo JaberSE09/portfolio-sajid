@@ -7,7 +7,7 @@ import { useForm, SubmitHandler } from 'react-hook-form'
 import { FormInput, FormTextArea } from '@/components'
 import { useEffect, useRef, useState } from 'react'
 import emailjs from "@emailjs/browser"
-import { ToastContainer, toast } from "react-toastify"
+import { Bounce, ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
 interface FormData {
@@ -180,7 +180,7 @@ const CTA = () => {
                 draggable
                 pauseOnHover
                 theme="dark"
-                transition="Bounce"
+                transition={Bounce}
               />
             </form>
           </div>

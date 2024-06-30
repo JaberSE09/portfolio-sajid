@@ -25,7 +25,7 @@ const CTA = () => {
     toast.success("Email sent successfully!", {});
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = (e:React.ChangeEvent<any> ) => {
     e.preventDefault();
 
     emailjs
@@ -51,7 +51,7 @@ const CTA = () => {
       );
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e:React.ChangeEvent<any>) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };

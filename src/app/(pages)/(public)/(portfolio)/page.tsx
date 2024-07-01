@@ -10,7 +10,7 @@ import Testimonials from './Testimonials'
 import { projects, services } from './data'
 
 export const metadata: Metadata = {
-  title: 'PortFolio Landing',
+  title: 'Sajid Jaber - Portfolio Website',
 }
 
 const PortFolio = () => {
